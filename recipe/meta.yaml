@@ -21,7 +21,7 @@ requirements:
     - setuptools >=61.2.0
     - pip
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},<3.14
 
 test:
   requires:
@@ -52,3 +52,4 @@ extra:
     - pont-us
     - thomasstorm
     - TonioF
+    - clarasb
