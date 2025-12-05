@@ -27,7 +27,7 @@ test:
   requires:
     - python {{ python_min }}
     - pip
-    - altair
+    - altair >=5.5.0,<6.0.0
   imports:
     - chartlets
   commands:
