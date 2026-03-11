@@ -1,5 +1,5 @@
 {% set name = "chartlets" %}
-{% set version = "0.1.7" %}
+{% set version = "0.2.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/bcdev/chartlets/archive/v{{ version }}.tar.gz
-  sha256: 5db22655412fb9320729a1343044c55e1571da7dab5fcf0f99658251016b1452
+  sha256: 1d2a12cd8d7d56cd58ce436e41639b3a79dae6ae254f619bb954cf80b6847a4e
 
 build:
   noarch: python
